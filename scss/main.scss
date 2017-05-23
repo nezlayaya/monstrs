@@ -90,16 +90,27 @@ footer{
   background-color: #323232;
   color: #fff;
   padding: 65px 0;
+  @media screen and (orientation: landscape){
+    padding: 20px;
+  }
   i{
     color: #2eb398;
   }
   form{
     display: inline-block;
     width: 50%;
+    @media screen and (orientation: landscape){
+      display: block;
+      width: 100%;
+    }
   }
   form+div{
     display: inline-block;
     width: 47%;
+    @media screen and (orientation: landscape){
+      display: block;
+      width: 100%;
+    }
   }
   i{
     padding: 0 8px 10px 0;
@@ -108,8 +119,14 @@ footer{
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
+    @media screen and (orientation: landscape){
+      display: block;
+    }
     section{
       padding: 15px 0 0 0;
+      @media screen and (orientation: landscape){
+        padding: 40px 0;
+      }
     }
   }
   input{
