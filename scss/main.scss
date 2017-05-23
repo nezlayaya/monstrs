@@ -55,9 +55,14 @@ header{
   h3{
     color: #20816d;
   }
+  .container{
+    padding: 30px 20px;
+  }
   .container>div{
-      padding: 65px 20px;
+      padding: 0 20px;
       display: table;
+      border-left: 1px solid #219d84;
+      border-right: 1px solid #219d84;
       div{
         display: table-cell;
         vertical-align: top;
@@ -80,4 +85,46 @@ header{
 .container{
   max-width: 1200px;
   margin: 0 auto;
+}
+footer{
+  background-color: #323232;
+  color: #fff;
+  padding: 65px 0;
+  i{
+    color: #2eb398;
+  }
+  form{
+    display: inline-block;
+    width: 50%;
+  }
+  form+div{
+    display: inline-block;
+    width: 47%;
+  }
+  i{
+    padding: 0 8px 10px 0;
+  }
+  .container>div{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    section{
+      padding: 15px 0 0 0;
+    }
+  }
+  input{
+    background-color: #454545;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px 5px;
+    margin:0 0 15px 0;
+  }
+  textarea{
+    background-color: #454545;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px 5px;
+  }
 }
